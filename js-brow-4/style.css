@@ -1,0 +1,30 @@
+.menu-list {
+    list-style: inside; 
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    position: relative;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.collapsed>.menu-toggle::before {
+    transform: rotate(-90deg);
+}
+
+.active {
+    font-weight: bold;
+    color: #00c8ff;
+}
