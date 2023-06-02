@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO List</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">TODO List</h1>
+    <form class="todo-form">
+      <input type="text" class="todo-input" placeholder="Ingresa tus pendientes">
+      <button type="submit" class="add-btn">Agregar</button>
+    </form>
+    <ul class="task-list">
+    </ul>
+    <div class="filter-btns">
+      <button class="filter-btn" data-filter="all">Todo</button>
+      <button class="filter-btn" data-filter="pending">Pendientes</button>
+      <button class="filter-btn" data-filter="completed">Completados</button>
+    </div>
+    <button class="delete-all-btn">Eliminar todos los Completados</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

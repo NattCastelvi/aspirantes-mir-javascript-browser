@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+body {
+  font-family: 'Cinzel Decorative', cursive;
+  background-color: #5f497a;
+  margin: 0;
+  padding: 0;
+}
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F5F5DC;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-form {
+    margin-bottom: 20px;
+  }
+  
+  .todo-form input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .todo-form button {
+    padding: 8px 12px;
+    background-color: #5f497a;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item.completed .task-title {
+    text-decoration: line-through;
+    color: #888;
+    position: relative;
+  }
+  
+  .task-item.completed .task-checkbox::before {
+    content: "\2713";
+    color: #d8b3ff;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+
+  .task-item .task-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .filter-btns {
+    margin-top: 10px;
+  }
+  
+  .filter-btns button {
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
+    color: #a65ff2;
+    cursor: pointer;
+  }
+  
+ .delete-all-btn {
+    background-color: #dc3d57;
+    color: #F5F5DC;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+/*@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+body {
+  font-family: 'Cinzel Decorative', cursive;
+  background-color: #5f497a;
+  margin: 0;
+  padding: 0;
+}
